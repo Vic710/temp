@@ -1,0 +1,35 @@
+# Datasets and local data files
+datasets/
+*.csv
+*.tsv
+KDDTrain+.txt
+KDDTest+.txt
+KDDTrain+.txt.gz
+KDDTest+.txt.gz
+document3.txt
+mvtec_ad/
+caltech-101/
+Intel Image Classification/
+fashion mnist/
+
+# Checkpoints and saved models
+checkpoints/
+checkpoint
+*.ckpt
+*.h5
+*.keras
+*.hdf5
+*.pb
+*.npy
+*.model
+saved_model/
+
+# Local environments
+.venv/
+venv/
+
+# Notebook and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
